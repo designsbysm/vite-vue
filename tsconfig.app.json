@@ -3,11 +3,18 @@
   "include": ["src"],
   "exclude": [],
   "compilerOptions": {
-    "composite": true,
     "baseUrl": ".",
+    "composite": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    /* Linting */
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
   },
   "strict": true
 }

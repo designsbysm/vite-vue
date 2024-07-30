@@ -7,7 +7,7 @@
     "build": "run-s test:types build:only",
     "build:only": "vite build",
     "format": "prettier --write src/",
-    "start": "vite",
+    "start": "vite --open",
     "test": "run-s test:types test:lint test:unit",
     "test:coverage": "vitest run --coverage",
     "test:lint": "eslint src --ext ts,tsx,vue --fix --report-unused-disable-directives",
